@@ -8,20 +8,12 @@
     <groupId>org.doodle</groupId>
     <artifactId>doodle-auction-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>doodle-auction-parent/pom.xml</relativePath>
+    <relativePath>../doodle-auction-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle-auction</artifactId>
+  <artifactId>doodle-auction-starters</artifactId>
   <packaging>pom</packaging>
-  <properties>
-    <maven.deploy.skip>true</maven.deploy.skip>
-  </properties>
   <modules>
-    <module>doodle-auction-autoconfigure</module>
-    <module>doodle-auction-client-core</module>
-    <module>doodle-auction-dependencies</module>
-    <module>doodle-auction-parent</module>
-    <module>doodle-auction-server</module>
-    <module>doodle-auction-server-core</module>
-    <module>doodle-auction-starters</module>
+    <module>doodle-auction-starter-client</module>
+    <module>doodle-auction-starter-server</module>
   </modules>
 </project>
