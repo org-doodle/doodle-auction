@@ -1,3 +1,3 @@
-= Doodle Auction
+= Doodle Auction image:https://github.com/org-doodle/doodle-config/actions/workflows/ci-maven.yml/badge.svg[link = "https://github.com/org-doodle/doodle-auction/actions/workflows/ci-maven.yml"]
 
 Doodle 社区驱动贡献通用拍卖行业务服务组件。
