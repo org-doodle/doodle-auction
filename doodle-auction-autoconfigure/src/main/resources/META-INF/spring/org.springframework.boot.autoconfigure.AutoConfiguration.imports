@@ -1,2 +1,3 @@
 org.doodle.auction.autoconfigure.client.AuctionClientAutoConfiguration
 org.doodle.auction.autoconfigure.server.AuctionServerAutoConfiguration
+org.doodle.auction.autoconfigure.vaadin.AuctionVaadinAutoConfiguration

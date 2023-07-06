@@ -10,11 +10,20 @@
     <version>0.0.1-SNAPSHOT</version>
     <relativePath>../doodle-auction-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle-auction-starters</artifactId>
-  <packaging>pom</packaging>
-  <modules>
-    <module>doodle-auction-starter-client</module>
-    <module>doodle-auction-starter-server</module>
-    <module>doodle-auction-starter-vaadin</module>
-  </modules>
+  <artifactId>doodle-auction-vaadin</artifactId>
+  <properties>
+    <spotless-maven-plugin.skip>false</spotless-maven-plugin.skip>
+    <maven.deploy.skip>true</maven.deploy.skip>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.doodle</groupId>
+      <artifactId>doodle-auction-starter-vaadin</artifactId>
+    </dependency>
+  </dependencies>
 </project>

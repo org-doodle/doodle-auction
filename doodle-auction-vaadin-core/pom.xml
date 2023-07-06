@@ -10,7 +10,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <relativePath>../doodle-auction-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle-auction-autoconfigure</artifactId>
+  <artifactId>doodle-auction-vaadin-core</artifactId>
   <properties>
     <spotless-maven-plugin.skip>false</spotless-maven-plugin.skip>
   </properties>
@@ -22,36 +22,11 @@
     </dependency>
     <dependency>
       <groupId>org.doodle</groupId>
-      <artifactId>doodle-boot-autoconfigure</artifactId>
+      <artifactId>doodle-boot-core</artifactId>
     </dependency>
     <dependency>
       <groupId>org.doodle</groupId>
-      <artifactId>doodle-broker-autoconfigure</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.doodle</groupId>
-      <artifactId>doodle-broker-client-core</artifactId>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.doodle</groupId>
-      <artifactId>doodle-auction-client-core</artifactId>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.doodle</groupId>
-      <artifactId>doodle-auction-server-core</artifactId>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.doodle</groupId>
-      <artifactId>doodle-auction-vaadin-core</artifactId>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.data</groupId>
-      <artifactId>spring-data-mongodb</artifactId>
-      <optional>true</optional>
+      <artifactId>doodle-boot-vaadin-core</artifactId>
     </dependency>
     <dependency>
       <groupId>com.vaadin</groupId>

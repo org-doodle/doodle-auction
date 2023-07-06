@@ -23,5 +23,7 @@
     <module>doodle-auction-server</module>
     <module>doodle-auction-server-core</module>
     <module>doodle-auction-starters</module>
+    <module>doodle-auction-vaadin</module>
+    <module>doodle-auction-vaadin-core</module>
   </modules>
 </project>
